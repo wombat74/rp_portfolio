@@ -48,4 +48,4 @@ def blog_detail(request, pk):
     }
 
     return render(request, "blog_detail.html", context)
-# Stopped at "from .forms import CommentForm"
+
