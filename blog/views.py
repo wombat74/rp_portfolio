@@ -1,5 +1,5 @@
 from .forms import CommentForm
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponseRedirect
 from .models import Post, Comment
 
 
